@@ -9,6 +9,8 @@ build_dir="$1/client"
 cache_dir=$2
 env_dir=$3
 
+protip $build_dir
+
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
 
 # Load some convenience functions like status(), echo(), and indent()
